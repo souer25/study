@@ -1,0 +1,10 @@
+num1=15
+num2=4
+text_num="5"
+print(num1+num2)
+print(num1-num2)
+print(num1*num2)
+print(num1/num2)
+print(num1//num2)
+print(num1%num2)
+print(int(text_num)+num1)
