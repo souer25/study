@@ -31,7 +31,7 @@ def save_data(data: Dict[str, int]):
 students = load_data()    # ←←← 关键！启动时自动读取历史数据
 
 def add_student():
-    name = input("请输入姓名：").strip().strip("\n\r")
+    name = input("请输入姓名：").strip()
     if name in students:
         print("❌ 该学生已存在！")
         return
